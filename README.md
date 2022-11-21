@@ -16,7 +16,7 @@ Create the new SQL database which we can add our CSV data to. Include a check fo
 # Popular Fields
 ![SQL_screenshot_2](https://github.com/VeniceHartwell/immigration_analysis/blob/main/images/SQL_screenshot_2.png)
 This is a simple WHERE / GROUP / ORDER function to find the most popular fields which US visa petitions are made for. This query includes a HAVING function in order to filter out many miscellaneous fields which would only obscure the findings.
-# Results: Top 11
+# Top Results
 | total_wage | num_in_field | field |
 | ---------- | ------------ | ----- |
 | 34042507585 | 486964 | COMPUTER SYSTEMS ANALYSTS |
@@ -34,7 +34,7 @@ This is a simple WHERE / GROUP / ORDER function to find the most popular fields 
 # Popular Locations
 ![SQL_screenshot_3](https://github.com/VeniceHartwell/immigration_analysis/blob/main/images/SQL_screenshot_3.png)
 This is a simple WHERE / GROUP / ORDER function to find the most popular state where US visa petitions are made.
-# Results
+# Top Results
 | total_wage | num_in_state | state |
 | ---------- | ------------ | ----- |
 44342230468 |	524909 | CALIFORNIA
