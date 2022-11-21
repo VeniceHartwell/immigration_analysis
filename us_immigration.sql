@@ -63,18 +63,3 @@ SELECT COUNT(full_time) as total_petitions, CASE
 END AS full_time
 FROM visa
 GROUP BY full_time;
-
--- OTHER QUERY FUNCTIONS I WOULD LIKE TO FIND A REASON TO USE:
-
--- EXISTS https://www.codewars.com/kata/58113a64e10b53ec36000293
--- POSITION https://www.codewars.com/kata/59401e0e54a655a298000040
--- JOIN and RANK https://www.codewars.com/kata/58094559c47d323ebd000035
--- UNION ALL https://www.codewars.com/kata/58112f8004adbbdb500004fe
--- IN
-SELECT id, name
-FROM departments
-WHERE id IN (
-  SELECT department_id
-  FROM sales
-  WHERE price > 98
-);
